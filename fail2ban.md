@@ -7,13 +7,13 @@
    
      **/etc/fail2ban/jail.local**
 [sshd]
-enabled = true   #включаем его
-port = ssh   #выбираем порт
-logpath = /var/log/auth.log   #где будут находится все логи
-maxretry = 3   #максимальное кол-во попыток
-bantime = 7200   #время бана в секундах
-bantime.increment = true   #увеличение бана при неправильном вводе
-bantime.factor = 2   #во сколько раз увеличится бан
+git commit enabled = true   #включаем его
+git commit port = ssh   #выбираем порт
+git commit logpath = /var/log/auth.log   #где будут находится все логи
+git commit maxretry = 3   #максимальное кол-во попыток
+git commit bantime = 7200   #время бана в секундах
+git commit bantime.increment = true   #увеличение бана при неправильном вводе
+git commit bantime.factor = 2   #во сколько раз увеличится бан
 
   На свой сервер мне надо было настроить только fail2ban на ssh из-за этого других настроек тут нет
   4) После всей настройки перезагружаем fail2ban systemctl restart fail2ban
