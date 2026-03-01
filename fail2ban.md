@@ -5,7 +5,7 @@
 3) Основаная директория будет находиться в /etc/fail2ban/
 Так как основной файл jail.conf лучше не трогать, создадим jail.local и настроем его полностью
    
-     **/etc/fail2ban/jail.local**
+**/etc/fail2ban/jail.local**
 [sshd]
 git commit enabled = true   #включаем его
 git commit port = ssh   #выбираем порт
