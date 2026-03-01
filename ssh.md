@@ -28,7 +28,7 @@
    PubkeyAuthentication yes                                                 #Разрешает заход по ключам
    AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2       #Откуда будет браться информация про ключи
    ```
-4. Сохраним конфиг и перезапустим ssh
+4. Сохраним конфиг и перезапустим ssh 
 
    `Ctrl+S & Ctrl+X`
 
@@ -36,6 +36,10 @@
    
    ``systemctl restart ssh``
 
+5. На всякий случай откройте в фаерволе ваш порт который вы указали, в моем случае iptables:
+
+   `iptables -A INPUT -p tcp --dport 22 -j ACCEPT`
+   
 ----
 
 ***Полный разбор ssh и как работают ключи***
