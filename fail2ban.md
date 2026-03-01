@@ -45,7 +45,9 @@ bantime.factor = 2   #во сколько раз увеличится бан
 4) После всей настройки перезагружаем и включаем,ставля в автозагрузку fail2ban
    
     `systemctl restart fail2ban`
+   
     ``systemctl enable fail2ban``
+   
     ```systemctl start fail2ban```
    
   
