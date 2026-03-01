@@ -3,7 +3,7 @@
 1) Обновим сервер до актуального apt update && apt upgrade -y
 2) Установим fail2ban на сервер : apt install fail2ban -y
 3) Основаная директория будет находиться в /etc/fail2ban/
-Так как основной файл jail.conf лучше не трогать, создадим jail.local и настроем его полностью
+   - Так как основной файл jail.conf лучше не трогать, создадим jail.local и настроем его полностью
    
 **/etc/fail2ban/jail.local**
 [sshd]
