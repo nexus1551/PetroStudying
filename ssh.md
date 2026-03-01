@@ -19,14 +19,14 @@
 3. Стандарт настройки которые должны стоять
 
    ```
-   AllowUsers user1 user2    #Подставьте вместо user1;user2 ваших пользователей
-   PermitRootLogin no    #Запрещает заходить на сервер с root
-   MaxAuthTries 3    #Максимальное количество попыток входа
-   Port 22    #Порт для входа, желательно поменять от греха подальше
-   PasswordAuthentication yes    #Разрешает заход по паролям
-   PermitEmptyPasswords no    #Запрещает заход с пустым паролем
-   PubkeyAuthentication yes    #Разрешает заход по ключам
-   AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2    #Откуда будет браться информация про ключи
+   AllowUsers user1 user2          #Подставьте вместо user1;user2 ваших пользователей
+   PermitRootLogin no          #Запрещает заходить на сервер с root
+   MaxAuthTries 3          #Максимальное количество попыток входа
+   Port 22          #Порт для входа, желательно поменять от греха подальше
+   PasswordAuthentication yes          #Разрешает заход по паролям
+   PermitEmptyPasswords no          #Запрещает заход с пустым паролем
+   PubkeyAuthentication yes          #Разрешает заход по ключам
+   AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2       #Откуда будет браться информация про ключи
    ```
 4. Сохраним конфиг и запустим ssh
 
