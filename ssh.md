@@ -28,7 +28,9 @@
    PubkeyAuthentication yes                                                 #Разрешает заход по ключам
    AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2       #Откуда будет браться информация про ключи
    ```
-4. Сохраним конфиг и запустим ssh
+4. Сохраним конфиг и перезапустим ssh
+
+   `Ctrl+S & Ctrl+X`
 
    `systemctl restart sshd`
    
