@@ -6,8 +6,14 @@ Fail2Ban — программа для защиты серверов от бру
 
 ****Алгоритм**** 
 
-1) Обновим сервер  ```apt update && apt upgrade -y```
-2) Установим fail2ban на него ```apt install fail2ban -y```
+1) Обновим сервер
+   
+ ```apt update && apt upgrade -y```
+ 
+2) Установим fail2ban на него
+
+```apt install fail2ban -y```
+
 3) Основаная директория будет находиться в `/etc/fail2ban/`
 
 
