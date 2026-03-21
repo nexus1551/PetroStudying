@@ -1,5 +1,6 @@
 ***Сегодня мы научимся настроивать свой MTProxy на сервер debian***
-
+1) Создаем в любой дирекстории файлик `nano start-mtproxy.sh`
+2) Даем файлу выполнятся `chmod +x start-mtproxy.sh`
 ----
 ```
 #!/bin/bash
@@ -106,3 +107,7 @@ else
     sudo docker logs ${CONTAINER_NAME}
 fi
 ```
+----
+3) Выполняем файлик `./start-mtproxy.sh`
+
+   
