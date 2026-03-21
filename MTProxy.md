@@ -1,7 +1,7 @@
 Сегодня мы научимся настроивать свой MTProxy на сервер debian
 ----
 
-#!/bin/bash
+```#!/bin/bash
 
 # Цвета для красивого вывода
 GREEN='\033[0;32m'
@@ -104,3 +104,4 @@ else
     echo -e "${RED}❌ ОШИБКА${NC}"
     sudo docker logs ${CONTAINER_NAME}
 fi
+```
